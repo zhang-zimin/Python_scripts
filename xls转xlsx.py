@@ -16,3 +16,5 @@ if __name__ == "__main__":
     for fname in files:
         if fname.endswith(".xls"):
             save_as_xlsx(package + fname)
+
+            print(123)
