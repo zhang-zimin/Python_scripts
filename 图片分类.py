@@ -20,11 +20,11 @@ for i in range(len(文件夹名称)):
                 os.makedirs(path2+'\\'+孔号列表[a])
             except OSError:
                 pass
-
+#如果以前没有这个孔号的文件夹就创建一个新的文件夹
 for file in files_list:
     for x in 文件夹名称:
         图片名称, suffix = os.path.splitext(file)
         孔号 = 图片名称.split('-')[0]
         if 孔号 == x:
             shutil.move(path+'\\'+file,path2+'\\'+x)
-
+#把岩性照片添加到对应的文件夹中
