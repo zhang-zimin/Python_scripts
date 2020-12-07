@@ -11,10 +11,10 @@ def save_as_xlsx(fname):
 
 
 if __name__ == "__main__":
-    package = "D:\\Data\\重合段单孔柱状图源文件\\"
+    package = "D:\\Data\\重合段单孔柱状图源文件\\" #修改为xls文件所在文件夹目录
     files = os.listdir(package)
     for fname in files:
         if fname.endswith(".xls"):
             save_as_xlsx(package + fname)
 
-            print(123)
+ 
