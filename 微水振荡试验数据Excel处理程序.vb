@@ -1,9 +1,5 @@
-
-
-
 Sub weishui()
     Dim t As Integer
-    
     Range("C2").Select
     ActiveCell.FormulaR1C1 = "=RC[-1]-R1C2"
     Range("C2").Select
