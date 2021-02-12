@@ -39,7 +39,7 @@ webdriver.get_screenshot_as_file(r"D:\python\pythonfile\3.png")
 webdriver.quit()
 
 yag = yagmail.SMTP(
-    user="zhangzimin1996@163.com", password="XBASUEDLZDOAPNJC", host="smtp.163.com"
+    user="zhangzimin1996@163.com", password="你的密码", host="smtp.163.com"
 )
 
 
