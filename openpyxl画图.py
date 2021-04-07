@@ -13,7 +13,7 @@ def getfiles():
     files = []
     filenames=os.listdir(r'D:\python\root\Scripts\4-6')
     for file in filenames:
-        if 'xl' in file:
+        if '.xlsx' in file:
             files.append(file)
     return files
 
